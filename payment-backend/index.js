@@ -43,10 +43,10 @@ app.post("/checkout", async (req, res) => {
         merchant_defined: true,
       },
       payment_method_types_include: [
+        "in_visa_credit_card",
         "in_googlepay_upi_bank",
         "in_paytm_ewallet",
         "in_bharatpay_cash",
-        "in_visa_credit_card",
       ],
     };
     const result = await makeRequest("POST", "/v1/checkout", body);
