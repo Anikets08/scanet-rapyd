@@ -1,0 +1,48 @@
+.doctor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mapMap {
+  border-radius: 20px;
+  border: 2px solid cornflowerblue;
+}
+
+.menuContainer {
+  height: 75vh;
+  width: 20vw;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+  margin-right: 30px;
+  overflow-y: scroll;
+}
+
+.hospitalContainer {
+  cursor: pointer;
+  padding: 25px;
+  color: white;
+  margin: 5px 0;
+  .mainText {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(155, 155, 155, 0.7) transparent;
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 0;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.7);
+  border-radius: 20px;
+  border: transparent;
+}

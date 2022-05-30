@@ -1,0 +1,42 @@
+.training {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  width: 400px;
+}
+.architecture {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.Optimizer {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.Epochs {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.batchSize {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.learningRate {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trainModel {
+  margin-top: 80px;
+  padding: 15px 0;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: rgba(100, 148, 237, 0.274);
+}

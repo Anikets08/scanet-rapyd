@@ -1,0 +1,119 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Krims Hospital",
+        "DESCRIPTIO": "Manish Nagar Nagpur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 79.07850671531638,21.090517962457913]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Neuron Hospital",
+        "DESCRIPTIO": "Dhantoli Nagpur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [  79.08512944501202,21.138423098713673]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Avanti Hospital",
+        "DESCRIPTIO": "Dhantoli Nagpur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [   79.07999998322168,21.132323094690022]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Indira Gandhi Hospital",
+        "DESCRIPTIO": "Ambazari Nagpur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [    79.05558670817378,21.133458984122274]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "CIIMS Hospital",
+        "DESCRIPTIO": "Bajaj Nagar "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.06086748111028,21.129345201731947]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Care Hospital",
+        "DESCRIPTIO": "Ramdaspeth "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.07908992128864,21.138380698646365]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Care Hospital",
+        "DESCRIPTIO": "Ramdaspeth "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.07908992128864,21.138380698646365]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Lata Mangeskar Hospital",
+        "DESCRIPTIO": "Sitabuldi "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0801628048907,21.145125206601282]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Center Point Hospital",
+        "DESCRIPTIO": "Ajna "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.09685881960553,21.131686493457444]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Saraswati Hospital",
+        "DESCRIPTIO": "Jaitala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0659080428372,21.104921949240417]
+      }
+    }
+  ]
+}

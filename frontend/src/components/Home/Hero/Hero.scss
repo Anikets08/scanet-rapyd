@@ -1,0 +1,65 @@
+.hero {
+  height: 500px;
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.illustation {
+  width: 350px;
+  animation: movieInLeft 0.3s ease-in-out;
+}
+.herotext {
+  width: 400px;
+  font-size: 26px;
+  font-weight: 500;
+  animation: movieInRight 0.3s ease-in-out;
+
+  span {
+    font-weight: bolder;
+    color: cornflowerblue;
+  }
+}
+.spacer {
+  height: 50px;
+}
+button {
+  cursor: pointer;
+  background-color: cornflowerblue;
+  padding: 20px 120px;
+  outline-style: none;
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  animation: movieInRight 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: translatey(-5px);
+  }
+}
+
+@keyframes movieInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes movieInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(+100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

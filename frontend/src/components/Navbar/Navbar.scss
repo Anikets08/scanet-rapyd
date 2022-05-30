@@ -1,0 +1,30 @@
+.nav-bar {
+  height: 100px;
+  color: black;
+  width: 100%;
+  ul {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    li {
+      list-style: none;
+      margin: 0 10px;
+      transition: 0.3s all ease-in-out;
+      cursor: pointer;
+      &:hover {
+        color: cornflowerblue;
+      }
+    }
+    .bars {
+      display: flex;
+      font-weight: 500;
+    }
+  }
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
